@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -143,4 +143,109 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+} 
+/* *{
+    border:1px solid black;
+} */
+
+
+/* Index.html */
+
+/* Navigation bar*/
+
+.navbar{
+    width:800px;
+    width: 800px;
+    margin: 0 auto;
+    display:flex;
+    margin-bott
+}
+nav{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.navbar img{
+    padding:5%;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    padding:5%;
+    display:flex;
+    align-items: flex-end;
+
+}
+/* TOP CONTENT */
+
+.top-content img{
+    margin:3%;
+}
+
+
+/* BOXES */
+#one{
+    background-color:#008080;
+}
+#two{
+    background-color:#ffd700;
+}
+#three{
+    background-color:#5f9ea0;
+}
+#four{
+    background-color:#ff7f50;
+}
+#five{
+    background-color:#dc143c;
+}
+#six{
+    background-color:#228b22;
+}
+#seven{
+    background-color:##9932cc;
+}
+#eight{
+    background-color:#ff69b4;
+}
+#nine{
+    background-color:##4b0082;
+}
+#ten{
+    background-color:#1e90ff;
+}
+
+
+
+
+
+
+
+/* about.html */
+
+hr{
+    border-top: 1px dashed black;
+}
+
+
+
+.top-div{
+    display:flex;
+}
+.bot-div{
+    display:flex;
+}
+
+.top-div,.bot-div, .lets-work-together, .about{
+    margin-top:4%;
+    margin-bottom:4%;
+}
+.learn-more{
+    text-align: center;
+    margin-top:5%;
+    width:33%;
+    padding:1%;
+    border:0.05em solid black;
+    border-radius: 8px;
 }
