@@ -149,7 +149,7 @@ footer nav a {
 } */
 
 
-
+/* Index.html */
 
 /* Navigation bar*/
 
@@ -214,4 +214,38 @@ nav a{
 }
 #ten{
     background-color:#1e90ff;
+}
+
+
+
+
+
+
+
+/* about.html */
+
+hr{
+    border-top: 1px dashed black;
+}
+
+
+
+.top-div{
+    display:flex;
+}
+.bot-div{
+    display:flex;
+}
+
+.top-div,.bot-div, .lets-work-together, .about{
+    margin-top:4%;
+    margin-bottom:4%;
+}
+.learn-more{
+    text-align: center;
+    margin-top:5%;
+    width:33%;
+    padding:1%;
+    border:0.05em solid black;
+    border-radius: 8px;
 }
